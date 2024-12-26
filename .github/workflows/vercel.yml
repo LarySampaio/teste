@@ -30,4 +30,4 @@ jobs:
 
     - name: Deploy para Vercel
       run: |
-        vercel --prod --confirm  # Realiza o deploy na Vercel diretamente para o ambiente de produção
+        vercel --prod --yes  # Realiza o deploy na Vercel diretamente para o ambiente de produção
